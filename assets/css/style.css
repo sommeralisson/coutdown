@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+/* Countdown */
+.countdown {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 100px));
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.countdown li {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.countdown li span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 4rem;
+    color: #4D4C59;
+    opacity: 1;
+}
+
+/* ID's */
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-first {
+    width: 40rem;
+    text-align: center;
+}
+
+.container-first ul li p{
+    background-image: -webkit-linear-gradient(left, #E0F8F7, #585858, #fff); /* For Chrome and Safari */
+    background-image: -moz-linear-gradient(left, #E0F8F7, #585858, #fff); /* For old Fx (3.6 to 15) */
+    background-image: -ms-linear-gradient(left, #E0F8F7, #585858, #fff); /* For pre-releases of IE 10*/
+    background-image: -o-linear-gradient(left, #E0F8F7, #585858, #fff); /* For old Opera (11.1 to 12.0) */
+    background-image: linear-gradient(to right, #E0F8F7, #585858, #fff); /* Standard syntax; must be last */
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(#d31027, #ea384d);
+}
+
+/* Class */
+.img-bot {
+    position: absolute;
+    bottom: 0;
+}
+
+/* Selectors */
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    align-items: center;
+}
+
+h2 {
+    background-image: -webkit-linear-gradient(left, #E0F8F7, #585858, #fff); /* For Chrome and Safari */
+    background-image: -moz-linear-gradient(left, #E0F8F7, #585858, #fff); /* For old Fx (3.6 to 15) */
+    background-image: -ms-linear-gradient(left, #E0F8F7, #585858, #fff); /* For pre-releases of IE 10*/
+    background-image: -o-linear-gradient(left, #E0F8F7, #585858, #fff); /* For old Opera (11.1 to 12.0) */
+    background-image: linear-gradient(to right, #E0F8F7, #585858, #fff); /* Standard syntax; must be last */
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(#d31027, #ea384d);
+}
